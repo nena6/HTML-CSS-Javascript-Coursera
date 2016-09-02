@@ -75,13 +75,9 @@
     }
 
     function gameOver() {
-        alert("Game Over!");
+        alert("Game Over! Refresh page to try again!");
         theBody.removeEventListener("click", gameOver);
         theLeftSide.removeEventListener("click", nextLevel);
-        //numberOfFaces = 5;
-        //cleanNodes();
-        //generateFaces();
-
     }
     //Delete all child nodes
     function cleanNodes() {
